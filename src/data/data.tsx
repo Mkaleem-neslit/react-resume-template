@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: 'Muhammad Kaleem',
   description: "Example site built with Tim Baker's react resume template",
 };
 
@@ -69,19 +69,22 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Muhammad Kaleem.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Rawalpindi based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently
+        working at{' '}
+        <a href="https://nesl-it.com/">
+          <strong className="text-stone-100">NESL-IT</strong>{' '}
+        </a>
+        helping build a modern, mobile and web Application .
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+      </p> */}
     </>
   ),
   actions: [
@@ -104,16 +107,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `An Software engineer  passionate about the software development. Experienced in working with teams  &solo in different software development stages, ensuring a high-quality and fulfillment of business market needs. I am a driven individual with the ability to adapt to any situation and proven potantial to grow myself and others.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Rawalpindi, Pak', Icon: MapIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Pakistani ', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Snooker, Workout', Icon: SparklesIcon},
   ],
 };
 
@@ -126,15 +125,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
+        level: 8,
+      },
+      {
+        name: 'Urdu',
         level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
       },
     ],
   },
@@ -144,6 +139,10 @@ export const skills: SkillGroup[] = [
       {
         name: 'React',
         level: 9,
+      },
+      {
+        name: 'Next',
+        level: 8,
       },
       {
         name: 'Typescript',
@@ -162,14 +161,6 @@ export const skills: SkillGroup[] = [
         name: 'Node.js',
         level: 8,
       },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
     ],
   },
   {
@@ -178,14 +169,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'React Native',
         level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -268,16 +251,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '20117 - 2021',
+    location: 'PMAS AUUR',
+    title: 'Bachelor of computer science ',
+    content: <p></p>,
   },
 ];
 
@@ -365,9 +342,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/muhammadkaleem171'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/13468620/malikkaleem'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/muhammad-kaleem-330b6b118/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/malikkaleem438/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/malikkaleem438'},
 ];
